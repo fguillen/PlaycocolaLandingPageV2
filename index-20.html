@@ -19,6 +19,19 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
     <link rel="stylesheet" href="assets/css/education.css">
+
+    <link rel="stylesheet" href="assets/playcocola/style.css">
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-W4GV5KFWRW"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-W4GV5KFWRW');
+    </script>
 </head>
 <body class="app-edu">
     <!-- preloader - start -->
@@ -150,7 +163,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row justify-content-center">
+                    <div class="row justify-content-center mt-0 mt-lg-5">
                       <div class="col-lg-4 col-md-6 wow fadeFromUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                           <div class="app-edu-intro-innerbox text-center">
                               <div class="app-edu-intro-icon">
@@ -298,7 +311,7 @@
                                   </ul>
                               </div>
                               <div class="s2-pricing_btn">
-                                  <a href="#" style="width: 230px"><i class="far fa-thumbs-up"></i> Looks interesting</a>
+                                  <a href="#app-edu-footer" style="width: 230px"><i class="far fa-thumbs-up"></i> Looks interesting</a>
                               </div>
                           </div>
                       </div>
@@ -474,10 +487,8 @@
                                 <p>We will launch this service very soon. Be informed and participate collaborating with functionalities suggestions.</p>
                             </div>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="app-edu-newslatter-form position-relative">
-                                <input type="text" placeholder="Your email address">
-                                <button>Subscribe</button>
+                        <div class="col-lg-6 mt-3 mt-lg-0">
+                            <div class="ml-form-embed" data-account="3086542:s9s5w9q4g9" data-form="4717853:y3t6q3">
                             </div>
                         </div>
                     </div>
@@ -533,5 +544,32 @@
         <script src="assets/js/education.js"></script>
 
         <script src="assets/js/script.js"></script>
+
+        <!-- MailerLite Universal -->
+        <script>
+          (function(m, a, i, l, e, r) {
+              m['MailerLiteObject'] = e;
+
+              function f() {
+                  var c = {
+                      a: arguments,
+                      q: []
+                  };
+                  var r = this.push(c);
+                  return "number" != typeof r ? r : f.bind(c.q);
+              }
+              f.q = f.q || [];
+              m[e] = m[e] || f.bind(f.q);
+              m[e].q = m[e].q || f.q;
+              r = a.createElement(i);
+              var _ = a.getElementsByTagName(i)[0];
+              r.async = 1;
+              r.src = l + '?v' + (~~(new Date().getTime() / 1000000));
+              _.parentNode.insertBefore(r, _);
+          })(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+
+          var ml_account = ml('accounts', '3086542', 's9s5w9q4g9', 'load');
+        </script>
+        <!-- End MailerLite Universal -->
     </body>
     </html>
