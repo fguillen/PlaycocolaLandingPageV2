@@ -1,15 +1,15 @@
 @charset "UTF-8";
 /*----------------------------------------------------
 @File: Default Styles
-@Author: 
-@URL: 
+@Author:
+@URL:
 
 This file contains the styling for the actual theme, this
 is the file you need to edit to change the look of the
 theme.
 ---------------------------------------------------- */
 /*=====================================================================
-@Template Name: 
+@Template Name:
 @Author:
 
 
@@ -571,6 +571,10 @@ select:visited {
   right: -110px;
   position: absolute;
   animation: UpdownMoving 2s infinite alternate;
+}
+
+.app-edu-banner-img-animation-2 {
+  animation: UpdownMoving 1s infinite alternate;
 }
 
 /*---------------------------------------------------- */
