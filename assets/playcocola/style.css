@@ -113,3 +113,13 @@
     height: 450px;
   }
 }
+
+
+.app-edu-intro-innerbox .app-edu-intro-icon {
+  width: 288px;
+  height: 288px;
+}
+
+.app-edu-intro-innerbox .app-edu-intro-icon {
+  background: none !important;
+}
