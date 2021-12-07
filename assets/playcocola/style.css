@@ -71,7 +71,7 @@
 }
 
 .app-edu-banner-img img {
-  height: 600px
+  height: 600px;
 }
 
 .app-edu-about-section .app-edu-about-img {
@@ -95,7 +95,21 @@
 
   .app-edu-banner-img {
     position: absolute;
-    right: 209px;
+    right: 10%;
   }
 
+  .app-edu-banner-img img {
+    height: 100%;
+  }
+}
+
+
+.players {
+  height: 600px;
+}
+
+@media screen and (max-width: 650px) {
+  .players {
+    height: 450px;
+  }
 }
