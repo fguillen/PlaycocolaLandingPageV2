@@ -123,3 +123,15 @@
 .app-edu-intro-innerbox .app-edu-intro-icon {
   background: none !important;
 }
+
+
+.app-edu-banner-section {
+  padding: 180px 0px 160px;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .app-edu-banner-section {
+      padding: 140px 0px 160px;
+  }
+}
