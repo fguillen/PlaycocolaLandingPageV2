@@ -135,3 +135,15 @@
       padding: 140px 0px 160px;
   }
 }
+
+.em-video-testimonial-section {
+  padding: 40px 0px;
+}
+
+.app-edu-about-section {
+  padding: 40px 0px;
+}
+
+.app-edu-about-section .app-edu-about-shape {
+  top: -140px;
+}
