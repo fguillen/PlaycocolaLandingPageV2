@@ -201,3 +201,8 @@
   font-size: 2em;
   padding-top: 0px
 }
+
+
+.section_title .title_tag {
+  padding-left: 20px;
+}
