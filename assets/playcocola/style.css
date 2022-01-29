@@ -160,3 +160,44 @@
 .app-edu-testimonial-author-text a {
   color: #930ce8;
 }
+
+.saasio-breadcurmb-section {
+  background-color: #bd4d5d;
+}
+
+.saas_two_main_header .saas_sign_up_btn {
+  background-color: #bd4d5d;
+}
+
+.s2-mobile_menu_button {
+  color: #bd4d5d;
+}
+
+.saasio-breadcurmb-section {
+  padding: 130px 0px 40px 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .saasio-breadcurmb-section {
+      padding: 130px 0px 40px 0px;
+  }
+}
+
+
+.about_content_s2 .s2-about_img img {
+  border-radius: 10% 25%;
+  transition: border-radius 1s, transform 0.5s, box-shadow 1s;
+}
+
+.about_content_s2:hover .s2-about_img img {
+  border-radius: 0%;
+  transform: rotate(-2deg);
+  box-shadow: 0px 7px 17px 2px rgba(77,31,38,0.33);
+}
+
+
+.saas_two_about_section .s2-about_text_icon .s2-about_icon {
+  color: white;
+  font-size: 2em;
+  padding-top: 0px
+}
