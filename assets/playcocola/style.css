@@ -206,3 +206,43 @@
 .section_title .title_tag {
   padding-left: 20px;
 }
+
+
+.saas_two_footer_section .s2-newslatter_section .newsletter_pattern_1 {
+  top: -22px;
+  left: 50px;
+}
+
+
+.newsletter_pattern_1 img {
+  width: 204px;
+}
+
+
+@media screen and (min-width: 992px) {
+  .s2-newslatter_title p {
+    padding-left: 263px;
+    padding-right: 191px;
+  }
+}
+
+
+.saas_two_footer_section .s2_footer_widget .s2_footer_social a {
+  background-color: #0e011a;
+}
+
+.saas_two_footer_section .s2_footer_widget .s2_footer_social .fb-bg {
+  color: #b931ad;
+}
+
+
+.error-message {
+  display: none;
+  /* opacity: 0; */
+  color: white;
+}
+
+
+.decorated-link {
+  text-decoration: underline;
+}
