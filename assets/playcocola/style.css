@@ -246,3 +246,8 @@
 .decorated-link {
   text-decoration: underline;
 }
+
+.ml-form-successContent {
+  color: white;
+  text-align: center;
+}
