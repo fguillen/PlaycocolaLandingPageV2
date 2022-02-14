@@ -2,7 +2,7 @@
 
 File:           JS Core
 Version:        1.0
-Author:         
+Author:
 
 -------------------------------------------------------------------------------- */
 (function() {
@@ -11,7 +11,7 @@ Author:
 
 	var SaaSio = {
 		init: function() {
-			this.Basic.init();  
+			this.Basic.init();
 		},
 
 		Basic: {
@@ -25,7 +25,7 @@ Author:
 				this.EiscrollTop();
 				this.EiTeamSlide();
 				this.faqBg();
-				this.EiScroller();
+				// this.EiScroller();
 				this.EiServiceSLider();
 				this.EiTestimonialSlider();
 				this.EiPartnerSlider();
@@ -34,8 +34,8 @@ Author:
 				this.AppSeoMobileMenu();
 				this.APSeoVideoPopUp();
 				this.AppSeoPartner();
-				this.AppSeoTestimonial();
-				this.SaaSMscroller();
+				// this.AppSeoTestimonial();
+				// this.SaaSMscroller();
 				this.SaaSMMobileMenu();
 				this.SaaSMOnePageNav();
 				this.SaaSCMobileMenu();
@@ -44,7 +44,7 @@ Author:
 				this.StrFeatureSlide();
 				this.StrPortfolioSlide();
 				this.StrBannerSlide();
-				this.StrProgressBar();
+				// this.StrProgressBar();
 				this.StrMobileMenu();
 				this.StrOnePageNav();
 				this.StrTestimonial();
@@ -64,7 +64,7 @@ Author:
 				this.PmMobileMenu();
 				this.PmScrollTop();
 				this.PmPartnerSlider();
-				this.Animation();
+				// this.Animation();
 			},
 			Saasiopreloader: function (){
 				jQuery(window).on('load', function(){
@@ -137,7 +137,7 @@ Author:
 						}
 					}
 				});
-				
+
 			},
 			EiStickyMenu: function (){
 				jQuery(window).on('scroll', function() {
@@ -158,8 +158,8 @@ Author:
 					$('.appi-ei-mobile_menu li.dropdown .dropdown-btn').on('click', function() {
 						$(this).prev('ul').slideToggle(500);
 					});
-				}			
-			},	
+				}
+			},
 			counterUp: function (){
 				if ($(".odometer").length) {
 					$('.odometer').appear();
@@ -244,7 +244,7 @@ Author:
 						scrollTop: 0
 					}, 800);
 					return false;
-				});				
+				});
 			},
 			EiTeamSlide: function (){
 				$('#ei-team-slide').owlCarousel({
@@ -280,7 +280,7 @@ Author:
 			faqBg: function (){
 				$(document).on('click', '.ei-faq', function(){
 					$(this).addClass('faq_bg').siblings().removeClass('faq_bg')
-				}) 				
+				})
 			},
 			EiScroller: function (){
 				$(window).on("load",function(){
@@ -586,7 +586,7 @@ Author:
 					},
 				})
 			},
-			StrPortfolioSlide: function (){ 
+			StrPortfolioSlide: function (){
 				$('#str-protfolio-slide').owlCarousel({
 					margin:30,
 					responsiveClass:true,
@@ -645,7 +645,7 @@ Author:
 								items:1
 							}
 						}
-					});    		
+					});
 				}
 			},
 			StrProgressBar: function (){
@@ -689,10 +689,10 @@ Author:
 				})
 			},
 			StrTestimonial: function (){
-				$('ol.carousel-indicators2 li').on("click",function(){ 
+				$('ol.carousel-indicators2 li').on("click",function(){
 					$('ol.carousel-indicators2 li.active').removeClass("active");
 					$("ol.carousel-indicators li.active").removeClass("active");
-					$(this).addClass("active");   
+					$(this).addClass("active");
 					var indicators = $(this).data("slide-to");
 					$(".carousel-indicators").find("[data-slide-to='" + indicators + "']")
 					.addClass("active");
@@ -737,7 +737,7 @@ Author:
 					},
 				})
 			},
-			StrBlogSlide: function (){ 
+			StrBlogSlide: function (){
 				$('#str-blog-slide').owlCarousel({
 					margin:30,
 					responsiveClass:true,
@@ -824,7 +824,7 @@ Author:
 							var percent = current_item.data('percent');
 							current_item.css('width', percent + '%').addClass('appeared').parent().append('<span>' + percent + '%' + '</span>');
 						}
-						
+
 					});
 				};
 			},
@@ -912,10 +912,10 @@ Author:
 				})
 			},
 			DiaTestimonial: function (){
-				$('ol.carousel-indicators2 li').on("click",function(){ 
+				$('ol.carousel-indicators2 li').on("click",function(){
 					$('ol.carousel-indicators2 li.active').removeClass("active");
 					$("ol.carousel-indicators li.active").removeClass("active");
-					$(this).addClass("active");   
+					$(this).addClass("active");
 					var indicators = $(this).data("slide-to");
 					$(".carousel-indicators").find("[data-slide-to='" + indicators + "']")
 					.addClass("active");
@@ -961,7 +961,7 @@ Author:
 					$(".banner-img1, .banner-img2").each(function(i, el) {
 						var el = $(el);
 						if (el.visible(true)) {
-							el.addClass("view-on"); 
+							el.addClass("view-on");
 						} else {
 							el.removeClass("view-on");
 						}
@@ -971,7 +971,7 @@ Author:
 					$(".banner-img1, .banner-img2").each(function(i, el) {
 						var el = $(el);
 						if (el.visible(true)) {
-							el.addClass("view-on"); 
+							el.addClass("view-on");
 						} else {
 							el.removeClass("view-on");
 						}
@@ -981,7 +981,7 @@ Author:
 			PmBlog: function (){
 				$(document).on('click', '.pm-blog-img-text', function(){
 					$(this).addClass('active').siblings().removeClass('active')
-				}) 
+				})
 			},
 			PmStickymenu: function (){
 				jQuery(window).on('scroll', function() {
