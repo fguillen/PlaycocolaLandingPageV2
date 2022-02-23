@@ -251,3 +251,13 @@
   color: white;
   text-align: center;
 }
+
+.s2-pricing_section .s2-pricing_item {
+  max-width: 500px;
+}
+
+
+.s2-checked.check-blue{
+  box-shadow: 0px 6px 18px 0px rgb(36 101 243 / 50%) !important;
+  background-image: linear-gradient(0deg, #1f78fd 1%, #30a0ff 53%, #589df5 100%) !important;
+}
